@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#header {
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+
+/*Nav Bar lists*/
+.nav {
+    float: right;
+    margin-right: 3%;
+    margin-top: -42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+nav li {
+    display: inline-flex;
+    width: 130px;
+}
+.nav li a {
+    color: white;
+}
+li a:hover {
+    color: darkgray;
+}
+
+/*Mission main page */
+.mission {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 120px;
+    margin-top: 200px;
+    margin-left: 130px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* ----- Button */
+.container .btn {
+    background-color: #D87777;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+.container .btn:hover {
+    background-color: white;
+    color: #D87777;
+}
